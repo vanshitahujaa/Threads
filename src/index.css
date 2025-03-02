@@ -1,0 +1,14 @@
+@import "tailwindcss";
+#root{
+    font-family: "Inter",sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.bg-opacity-5{
+    background-color: rgba(0, 0, 0, 0.337);
+}
+.scrollbar{
+    scrollbar-width: thin;
+    scrollbar-color: rgb(0, 0, 0);
+    scroll-behavior: smooth;
+}
