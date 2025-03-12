@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { DiVim } from "react-icons/di";
+// import { DiVim } from "react-icons/di";
 import { Link, useParams } from "react-router-dom";
 
 interface ShippingAddress {

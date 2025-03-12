@@ -1,16 +1,16 @@
 import { Link } from "react-router-dom"
 
 const AdminHomePage = () => {
-    const orders = [
-        { _id: 1,
-          user:{
-            name: 'John',
-          },
-          totalPrice: 110,
-          status: 'pending',
+    // const orders = [
+    //     { _id: 1,
+    //       user:{
+    //         name: 'John',
+    //       },
+    //       totalPrice: 110,
+    //       status: 'pending',
 
-        },
-    ]
+    //     },
+    // ]
   return (
     <div className="max-w-7xl mx-auto p-6">
         <h1 className="text-3xl font-bold mb-6 ">

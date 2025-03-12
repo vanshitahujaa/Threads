@@ -15,7 +15,7 @@ const PayPalButton: React.FC<PayPalButtonProps> = ({ amount, onSuccess, onError 
     <PayPalScriptProvider options={{ clientId }}>
       <PayPalButtons
         style={{ layout: "vertical" }}
-        createOrder={(data, actions) => {
+        createOrder={(_,actions) => {
           return actions.order.create({
             intent: "CAPTURE", // Explicitly define intent
             purchase_units: [
@@ -28,7 +28,7 @@ const PayPalButton: React.FC<PayPalButtonProps> = ({ amount, onSuccess, onError 
             ],
           });
         }}
-        onApprove={(data, actions) => {
+        onApprove={(_,actions) => {
           if (!actions.order) {
             onError(new Error("Order capture failed: actions.order is undefined"));
             return Promise.reject("Order capture failed");
