@@ -13,7 +13,7 @@ type FilterState = {
 const FilterSidebar = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const navigate = useNavigate()
-  const [selectedColor ,setSelectedColor ]=useState("")
+  // const [selectedColor ,setSelectedColor ]=useState("")
   const [filter, setFilter] = useState<FilterState>({
     category: "",
     gender: "",

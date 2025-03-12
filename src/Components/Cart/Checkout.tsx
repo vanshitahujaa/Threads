@@ -138,8 +138,8 @@ const Checkout = () => {
                       Pay with PayPal
                     </h3>
                     {/* paypal component */}
-                    <PayPalButton amount={100} onSuccess={handlePaymentSuccess}
-                    onError={(err)=>alert("Payment Failed, Try Again.")}/>
+                    <PayPalButton amount="100" onSuccess={handlePaymentSuccess}
+                    onError={()=>alert("Payment Failed, Try Again.")}/>
                   </div>
                 )}
               </div>

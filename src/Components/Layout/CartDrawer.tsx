@@ -1,6 +1,6 @@
 // import React from 'react'
 import { IoMdClose } from 'react-icons/io';
-import { useState } from 'react';
+// import { useState } from 'react';
 import CartContent from '../Cart/CartContent';
 import { useNavigate } from 'react-router-dom';
 

@@ -15,9 +15,9 @@ interface NewArrivals {
 
 const NewArrivals = () => {
   const scrollRef = useRef<HTMLDivElement>(null);
-  const [isDragging, setIsDragging] = useState(false);
-  const [startX , setStartX] = useState(0);
-  const [scrollLeft,setScrollLeft]=useState(false)
+  // const [isDragging, setIsDragging] = useState(false);
+  // const [startX , setStartX] = useState(0);
+  // const [scrollLeft,setScrollLeft]=useState(false)
   const [canScrollRight,setCanScrollRight]=useState(true)
   const [canScrollLeft,setCanScrollLeft]=useState(false)
 
